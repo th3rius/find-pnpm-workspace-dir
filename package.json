@@ -9,7 +9,10 @@
   "scripts": {
     "test": "jest"
   },
-  "repository": "https://github.com/th3rius/find-pnpm-workspace-dir",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/th3rius/find-pnpm-workspace-dir.git"
+  },
   "keywords": [
     "pnpm9",
     "pnpm"
