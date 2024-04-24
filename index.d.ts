@@ -1,3 +1,3 @@
-declare function findWorkspaceDir(cwd: string): any;
+declare function findWorkspaceDir(cwd: string): string | undefined;
 
 export { findWorkspaceDir };
