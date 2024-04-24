@@ -1,6 +1,6 @@
 {
   "name": "find-pnpm-workspace-dir",
-  "version": "8.0.0",
+  "version": "8.0.1",
   "description": "Finds the root of a pnpm workspace",
   "types": "index.d.ts",
   "files": [
