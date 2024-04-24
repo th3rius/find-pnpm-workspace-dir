@@ -1,4 +1,4 @@
-find-pnpm-workspace-dir
+# find-pnpm-workspace-dir
 
 > Finds the root of a pnpm workspace
 
@@ -8,6 +8,14 @@ find-pnpm-workspace-dir
 
 ```sh
 pnpm add find-pnpm-workspace-dir
+```
+
+## Usage
+
+```js
+const findWorkspaceDir = require("find-pnpm-workspace-dir");
+
+const workspaceDir = findWorkspaceDir(__dirname);
 ```
 
 ## License
